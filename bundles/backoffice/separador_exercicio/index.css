@@ -1,0 +1,85 @@
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(150, 150, 150, 0.5);
+    border-radius: 0;
+    margin-bottom: 1.5rem;
+}
+
+.wrongAnswer {
+    border: 2px solid #f44336;
+    background-color: rgba(244, 67, 54, 0.5);
+}
+
+.rightAnswer {
+    border: 2px solid #4caf50;
+    background-color: rgba(76, 175, 80, 0.5);
+}
+
+.text-dark {
+    color: #202020;
+}
+
+.bg-flat-color-1 {
+    background: #20a8d8;
+}
+
+.bg-flat-color-2 {
+    background: #ffc108;
+}
+
+.bg-flat-color-3 {
+    background: #f86d6c;
+}
+
+.bg-flat-color-4 {
+    background: #4ebd75;
+}
+
+.text-light {
+    color: #f8f9fa!important;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.m-0 {
+    margin: 0!important;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+
+.progress-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-color: #007bff;
+    transition: width .6s ease;
+}
